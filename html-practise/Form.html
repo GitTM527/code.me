@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK.COM</title>
+    <link href="CSS/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <h1>CUSTOMER SATISFACTION SURVEY</h1> <hr />
+  <form action="Form.html" method="get">
+    <fieldset>
+       <legend>
+           <b>Your Details:</b>
+       </legend> <br />
+       <label>
+           First Name:
+           <input type="text" name="First name" size="30" maxlength="100" required="required">
+       </label>
+       <label>
+          Last Name:
+          <input type="text" name="Last name" size="30" maxlength="100" required="required">
+       </label>
+         <br /> <br />
+       <label form="usersname"> 
+          Date of Birth:
+          <input type="date" name="date of birth" />
+       </label><br /><br />
+       <label>
+          Email:
+          <input type="email" name="email" size="30" maxlength="100" required="required">
+       </label> <br />
+   </fieldset>
+   </form>
+   <form>
+       <br />
+      <fieldset>
+       <legend>
+           <b>Your Review</b>
+       </legend><br />
+       <p>
+           <form>
+           Which of our Gas Plant did you visit today? <br />
+           <label>
+               <input type="radio" name="rating" value="Obalende 5MT Skid Plant" />
+               Obalende 5MT Skid Plant
+           </label><br />
+           <label>
+               <input type="radio" name="rating" value="Isolo 10MT Skid Plant" />
+               Isolo 10MT Skid Plant
+            </label><br />
+            <label>
+                <input type="radio" name="rating" value="Igbogbo 5MT Skid Plant" />
+                Igbogbo 5MT Skid Plant
+            </label>
+          </form>
+       </p> <br />
+       <p>
+         <form> 
+           How satisfied are you with our products and services at our gas plant today? <br />
+           <label>
+               <input type="radio" name="rating" value="Natural" />
+               Natural
+            </label><br />
+            <label>
+               <input type="radio" name="rating" value="Somewhat dissatisfied" />
+               Somewhat dissatisfied
+            </label><br />
+            <label>
+             <input type="radio" name="rating" value="Dissatisfied" />
+             Dissatisfied
+            </label>
+         </form>
+        </p> <br />
+        <p>
+           <form>
+            Were you satisfied with our safety standard at our gas plant today? <br />
+            <label>
+                <input type="radio" name="rating" value="Yes" />
+                Yes
+            </label><br />
+            <label>
+                <input type="radio" name="rating" value="No" />
+                No
+            </label><br />
+          </form>
+        </p>
+        <p>
+            <label for="commemts">
+                If No, Kindly Suggest necessary safety measures in addition to our safety standard(s)
+            </label><br />
+            <textarea rows="5" cols="100" id="Type here"> Enter your comment here
+            </textarea>
+        </p><br />
+        <p>
+           <form>
+            Were you cool with the service delivery of our plant/gas attendant today? <br />
+            <label>
+                <input type="radio" name="rating" value="Yes" />
+                Yes
+            </label><br />
+            <label>
+                <input type="radio" name="rating" value="No" />
+                No
+            </label>
+           </form>
+        </p>
+        <p>
+            <label for="commemts">
+                If Yes, Kindly tell us your experience.
+            </label><br />
+            <textarea rows="5" cols="100" id="Type here"> Enter your comment here
+            </textarea>
+        </p>
+   </fieldset><br />
+   </form>
+   <form>
+   <fieldset>
+       <legend>
+           <b>Subscription</b>
+       </legend><br />
+       <p>
+           <form>
+            Would you like to subscribe to our composite cylinder package? <br />
+            <label>
+                <input type="radio" name="rating" value="Yes" />
+                Yes
+            </label><br />
+            <label>
+                <input type="radio" name="rating" value="No" />
+                No
+            </label>
+            </form>
+       </p>
+       <p>
+            <form>
+            Would you like to visit us next time? <br />
+            <label>
+                <input type="radio" name="rating" value="Yes" />
+                Yes
+            </label><br />
+            <label>
+                <input type="radio" name="rating" value="No" />
+                No
+            </label>
+            </form>
+        </p>
+        <p> Please select our other products/services you would like to learn more about <br />
+            <input type="checkbox" name="service" value="Gas Reticulation" /> Gas Reticulation
+            <input type="checkbox" name="service" value="Bulk Supply" /> Bulk Supply
+            <input type="checkbox" name="service" value="Home Delivery" /> Home Delivery
+        </p>
+    </fieldset><br />
+   </form>
+   <form>
+    <fieldset>
+        <legend>
+            <b>Your Feedback</b>
+        </legend><br />
+        <p>
+            <label for="commemts">
+                Please provide additional feedback in order to enable us serve you better.
+            </label><br />
+            <textarea rows="5" cols="100" id="Type here"> Type here
+            </textarea>
+        </p><br />
+    </fieldset><br />
+    <Input type="submit" Value="SUBMIT" />
+  </form>
+</body>
+</html>

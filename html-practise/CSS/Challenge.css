@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(255, 255, 255)
+    
+    
+}
+
+
+.div-flex {
+    background-color: rgb(5, 0, 20);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: 100vh;
+    ;
+}
+
+.qr-container {
+    background-color: rgb(1, 1, 36); 
+    border-radius: 5px;
+    padding: 3rem;
+    align-items: center;
+    justify-items: center;
+    max-width: 14rem;
+    text-align: center;
+    max-height:80vh;
+    
+}
+
+.insights{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.discover{
+    color: rgb(199, 170, 252);
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+.bold {
+    color: blueviolet;
+}
+
+.orgno{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+.org{
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: rgb(199, 170, 252);
+    opacity: 0.6;
+}
+
+.qr-img img{
+    height: 10rem;
+    width: 14rem;
+    margin: 1px 1px 1px 2px
+    
+    
+    
+}
+
+.buttom-container{
+    background-color: rgb(32, 0, 51);
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    max-width: 15rem ;
+    height: 85vh;
+   
+}

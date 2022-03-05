@@ -1,0 +1,60 @@
+* {
+    /* border: 1px solid rgb(235, 39, 4); */
+    background-color: cornflowerblue;
+    
+}
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+section {
+    max-width: 30rem;
+    margin: 2rem auto;
+}
+
+.page {
+    text-align: center;
+    
+}
+
+.Name {
+    color: darkblue;
+}
+
+.intro {
+    text-align: center;
+}
+
+.second {
+    text-align: center;
+    color: rgb(43, 19, 1);
+}
+.picture {
+   margin: 2rem;
+   border-radius: 50%;
+   height: 15rem;
+   width: 15rem;
+}
+
+.hobbies{
+    text-align: center;
+    /* margin: auto; */
+    max-width: 20rem;
+}
+
+.hobby{
+    /* border: 1px solid rgb(128, 17, 233); */  
+    max-width: 15rem;
+    height: 2rem;
+}
+
+.contacts a{
+color: rgb(199, 16, 184);
+}
+
+.contacts {
+    margin: auto;
+    color: crimson;
+}
